@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_alignWithParentIfMissing="true"
+    android:layout_alignParentLeft="false"
+    android:layout_alignParentEnd="false"
+    android:layout_alignParentBottom="false"
+    android:orientation="vertical"
+    android:background="@color/colorBlack"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="510dp"
+        android:layout_gravity="top"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/marvel1" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="510dp"
+        android:layout_gravity="top"
+        android:scaleType="fitXY"
+        android:visibility="gone"
+        app:srcCompat="@drawable/a_avengers" />
+
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:layout_below="@+id/imageView"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="bottom"
+        android:layout_marginTop="9dp"
+        android:layout_marginBottom="36dp"
+        android:background="@color/colorBlack"
+        android:fontFamily="serif"
+        android:padding="2dp"
+        android:text="START"
+        android:textAlignment="center"
+        android:textColor="@color/colorYellow"
+        android:textSize="50dp"
+        android:textStyle="bold" />
+
+
+
+
+</FrameLayout>
